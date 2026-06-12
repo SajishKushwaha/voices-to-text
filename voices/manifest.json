@@ -1,0 +1,31 @@
+{
+  "voices": [
+    {
+      "id": "en_US-lessac-medium",
+      "label": "English - Lessac",
+      "language": "en-US",
+      "modelFile": "en_US-lessac-medium.onnx",
+      "configFile": "en_US-lessac-medium.onnx.json",
+      "modelUrl": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx",
+      "configUrl": "https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/lessac/medium/en_US-lessac-medium.onnx.json"
+    },
+    {
+      "id": "hi_IN-pratham-medium",
+      "label": "Hindi - Pratham",
+      "language": "hi-IN",
+      "modelFile": "hi_IN-pratham-medium.onnx",
+      "configFile": "hi_IN-pratham-medium.onnx.json",
+      "modelUrl": "https://huggingface.co/rhasspy/piper-voices/resolve/main/hi/hi_IN/pratham/medium/hi_IN-pratham-medium.onnx",
+      "configUrl": "https://huggingface.co/rhasspy/piper-voices/resolve/main/hi/hi_IN/pratham/medium/hi_IN-pratham-medium.onnx.json"
+    },
+    {
+      "id": "hi_IN-priyamvada-medium",
+      "label": "Hindi - Priyamvada",
+      "language": "hi-IN",
+      "modelFile": "hi_IN-priyamvada-medium.onnx",
+      "configFile": "hi_IN-priyamvada-medium.onnx.json",
+      "modelUrl": "https://huggingface.co/rhasspy/piper-voices/resolve/main/hi/hi_IN/priyamvada/medium/hi_IN-priyamvada-medium.onnx",
+      "configUrl": "https://huggingface.co/rhasspy/piper-voices/resolve/main/hi/hi_IN/priyamvada/medium/hi_IN-priyamvada-medium.onnx.json"
+    }
+  ]
+}

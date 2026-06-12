@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(18, 140, 126, 0.12), transparent 34rem),
+    linear-gradient(135deg, #edf2f7 0%, #f8fafc 45%, #e9f4f1 100%);
+  color: #17202a;
+  letter-spacing: 0;
+}
+
+.wave-bar {
+  animation: wave 900ms ease-in-out infinite;
+  transform-origin: center;
+}
+
+@keyframes wave {
+  0%,
+  100% {
+    transform: scaleY(0.35);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}

@@ -1,0 +1,17 @@
+.git
+.next
+node_modules
+.venv
+.tmp
+backend/.venv
+backend/tmp
+backend/models
+bin/piper
+voices/*.onnx
+voices/*.onnx.json
+public/generated/tts/*.wav
+public/generated/tts/*.tmp.wav
+*.tsbuildinfo
+.env
+.env.*
+backend/.env

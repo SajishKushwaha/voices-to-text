@@ -1,0 +1,35 @@
+{
+  "name": "peeper-local-voice-ai",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev",
+    "dev:flask": "cd backend && .venv/bin/python run.py",
+    "dev:all": "node scripts/dev-all.mjs",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "piper:install": "node scripts/install-piper.mjs",
+    "tts:cleanup": "node scripts/cleanup-tts.mjs"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.468.0",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "autoprefixer": "^10.5.0",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "^16.0.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^3.4.19",
+    "typescript": "^5.7.2"
+  }
+}
