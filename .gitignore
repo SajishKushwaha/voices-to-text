@@ -3,6 +3,7 @@ node_modules/
 .venv/
 backend/.venv/
 backend/tmp/
+backend/data/
 backend/models/
 __pycache__/
 *.pyc
@@ -23,3 +24,4 @@ voices/*.onnx
 voices/*.onnx.json
 public/generated/tts/*.wav
 public/generated/tts/*.tmp.wav
+.vercel

@@ -1,0 +1,72 @@
+{
+  "names": [
+    "Sajish",
+    "Aman",
+    "Rahul",
+    "Ananya",
+    "Kumar"
+  ],
+  "cities": [
+    "Chakia",
+    "Muzaffarpur",
+    "Patna",
+    "Delhi",
+    "Noida",
+    "Bihar"
+  ],
+  "hospitals": [
+    "Plasmit Hospital",
+    "AIIMS",
+    "Apollo Hospital",
+    "Fortis Hospital",
+    "Medanta Hospital",
+    "Max Hospital"
+  ],
+  "doctors": [
+    "Dr Sajish Kumar",
+    "Dr Aman Kumar",
+    "Dr Rahul Kumar",
+    "Dr Ananya Kumar"
+  ],
+  "medical_terms": [
+    "OPD",
+    "IPD",
+    "Hemoglobin",
+    "HbA1c",
+    "Creatinine",
+    "Platelet",
+    "Platelets",
+    "WBC",
+    "RBC",
+    "Sodium",
+    "Potassium",
+    "Cholesterol",
+    "Triglycerides",
+    "TSH",
+    "T3",
+    "T4",
+    "Prescription",
+    "Consultation",
+    "Cardiology",
+    "Neurology",
+    "Gastroenterology"
+  ],
+  "aliases": {
+    "satish": "Sajish",
+    "sajeesh": "Sajish",
+    "sajis": "Sajish",
+    "chakiya": "Chakia",
+    "chakiaa": "Chakia",
+    "beer": "Bihar",
+    "behar": "Bihar",
+    "biharh": "Bihar",
+    "muzaffar pur": "Muzaffarpur",
+    "hemoglobin": "Hemoglobin",
+    "hemo globin": "Hemoglobin",
+    "creatine": "Creatinine",
+    "cretinine": "Creatinine",
+    "plate let": "Platelet",
+    "hba one c": "HbA1c",
+    "hba1 see": "HbA1c"
+  }
+}

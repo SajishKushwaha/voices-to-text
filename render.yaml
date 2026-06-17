@@ -1,0 +1,41 @@
+services:
+  - type: web
+    name: peeper-backend
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: standard
+    healthCheckPath: /api/health
+    disk:
+      name: peeper-backend-data
+      mountPath: /app/persistent
+      sizeGB: 20
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: FLASK_ENV
+        value: production
+      - key: CORS_ORIGINS
+        sync: false
+      - key: AUTO_DOWNLOAD_MODEL
+        value: true
+      - key: DATABASE_PATH
+        value: persistent/data/medical_ai.db
+      - key: PDF_UPLOAD_DIR
+        value: persistent/data/pdfs
+      - key: STREAM_DIR
+        value: persistent/tmp/streams
+      - key: UPLOAD_DIR
+        value: persistent/tmp/uploads
+      - key: WHISPER_MODEL_SIZE
+        value: large-v3
+      - key: WHISPER_MODEL_PATH
+        value: persistent/models/faster-whisper-large-v3
+      - key: WHISPER_DEVICE
+        value: cpu
+      - key: WHISPER_COMPUTE_TYPE
+        value: int8
+      - key: WHISPER_MAX_WORKERS
+        value: 1
+      - key: MAX_CONTENT_LENGTH_MB
+        value: 25

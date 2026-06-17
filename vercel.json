@@ -1,0 +1,9 @@
+{
+  "experimentalServices": {
+    "peeper": {
+      "type": "web",
+      "routePrefix": "/",
+      "framework": "nextjs"
+    }
+  }
+}
